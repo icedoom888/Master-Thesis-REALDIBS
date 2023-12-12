@@ -3,6 +3,10 @@
 
 # REALDIBS: REndering Alternative Deep Image-based Sanssouci
 
+<div align="center">
+  <video src="https://private-user-images.githubusercontent.com/9220778/289960673-110276c0-8a7d-4232-b7f6-f503104bcd3d.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI0MDQ5NzksIm5iZiI6MTcwMjQwNDY3OSwicGF0aCI6Ii85MjIwNzc4LzI4OTk2MDY3My0xMTAyNzZjMC04YTdkLTQyMzItYjdmNi1mNTAzMTA0YmNkM2QubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMTIxMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzEyMTJUMTgxMTE5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9M2UxNzBlZDVlZDEzZGQyMWMxMzUxNzY3NGQ4YjczM2VmOGUzZjA0OTZhMTQ1OGNlNjlmYzEyZTlmMzgzMjUxOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.SpYtSEe1hpAhB6ZYbc1LBnZLhH0SBd3nr2JmXkfVUEs">
+  </video>
+</div>
 
 
 Estimating 3D reconstructions from a collection of images is crucial for a vast variety of applications and thus has received a large amount of attention in recent years. Although classical methods exist which can produce fairly high quality 3D reconstructions, images directly rendered from this representation typically still suffer from a variety of visual artifacts.
