@@ -1,0 +1,56 @@
+
+
+# DONE: COLOR IMAGES
+# DONE: work on 3 images: input, predicted, rendered
+# DONE: automatize new error measures
+# DONE: loop across folder and plot 
+# DONE: create gaussian noise example
+# DONE: clean into: single image vs process folder code
+# DONE: create environment.yml
+# DONE: aziz video, perceptual
+
+# TODO: fix autoatic size to 1024 in elpips
+# TODO: use crops
+# TODO: check mse normalization
+# TODO: single image / no reference values
+# TODO: tensorflow metrics need a tensor (tensorboard)
+
+
+
+
+# tensorflow
+https://www.tensorflow.org/api_docs/python/tf/image/ssim_multiscale
+
+
+# shiftx from neural paper?
+# photogrammetry error paper
+
+# https://github.com/NVIDIA/partialconv
+# perceptual loss and more
+
+# pip install sewar
+# https://sewar.readthedocs.io/en/latest/
+
+# https://github.com/opencv/opencv_contrib/tree/master/modules/quality
+# https://github.com/krshrimali/No-Reference-Image-Quality-Assessment-using-BRISQUE-Model
+
+'''
+    impnsrOrt cv2
+    # read image
+    img = cv2.imread(img_path, 1) # mention img_path
+    # compute brisque quality score via static method
+    score = cv2.quality.QualityBRISQUE_compute(img, model_path, range_path) # specify model_path and range_path
+    # compute brisque quality score via instance
+    # specify model_path and range_path
+    obj = cv2.quality.QualityBRISQUE_create(model_path, range_path)
+    score = obj.compute(img)
+'''
+
+# https://github.com/Netflix/vmaf
+# https://github.com/Netflix/vmaf/blob/master/resource/doc/VMAF_Python_library.md
+
+
+
+
+# https://scikit-learn.org/stable/modules/metrics.html#metrics
+

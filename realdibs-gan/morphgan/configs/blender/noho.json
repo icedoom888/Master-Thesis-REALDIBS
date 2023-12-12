@@ -1,0 +1,8 @@
+{
+  "basepath": "/media/hayko/DATA/project/realdibs/data/",
+  "ext": ".blend",
+  "name": "noho",
+  "outpath": "../results/",
+  "resolution_x": 4000,
+  "resolution_y": 3000
+}

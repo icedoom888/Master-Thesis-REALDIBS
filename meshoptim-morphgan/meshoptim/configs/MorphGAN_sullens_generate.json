@@ -1,0 +1,23 @@
+{
+  "batch_size": 1,
+  "buffer_size": 27,
+  "camera_path": "/mnt/soarin/data/sullens/mesh/sullens_opk.txt",
+  "checkpoint_freq": 500,
+  "ckpt_number": 10000,
+  "data_dir": "/mnt/soarin/datasets/",
+  "dataset_name": "sullens",
+  "dataset_version": "0.2.0",
+  "epochs": 10000,
+  "gpu": "0",
+  "height": 3000,
+  "lr": 0.0002,
+  "mesh_freq": 500,
+  "mesh_path": "/mnt/soarin/results/mesh_optim_vertex_colors/sullens/mesh_optim_vertex_colors/20191219-134502/mesh/morphed_mesh_499.tfrecords",
+  "method": "MorphGAN",
+  "out_dir": "/mnt/soarin/results/",
+  "prefetch_size": 270,
+  "task": "morphGAN",
+  "test_freq": 50,
+  "test_one": false,
+  "width": 4000
+}

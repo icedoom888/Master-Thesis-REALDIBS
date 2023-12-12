@@ -1,0 +1,28 @@
+image: continuumio/miniconda3:latest
+
+clone:
+  lfs: true
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - pip
+          - conda
+
+        script:
+          - apt-get install make
+          - conda env update -n test_env --file  environment.yml
+          - conda env update -n test_env --file  environment-dev.yml
+          - source activate test_env
+          - pip install -e .
+          -  pytest tests
+          - flake8 --count setup.py noice/ examples/ tests/
+          - pydocstyle   # The output is working but the warning breaks the CI
+          - codespell -S *.pyc,.coverage,.git,*html,doc/auto_*,doc/_*,*.png --ignore-words=ignore_words.txt noice/ doc/ examples/
+          - cd doc/
+          - make html
+
+definitions:
+  caches:
+    conda:  ~/.conda/envs/test_env

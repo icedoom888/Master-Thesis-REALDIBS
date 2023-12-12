@@ -1,0 +1,8 @@
+{
+  "basepath": "/media/hayko/DATA/project/realdibs/data/",
+  "ext": ".blend",
+  "name": "goblin",
+  "outpath": "../results/",
+  "resolution_x": 448,
+  "resolution_y": 448
+}

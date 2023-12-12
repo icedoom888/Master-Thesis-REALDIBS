@@ -1,0 +1,23 @@
+{
+  "batch_size": 3,
+  "buffer_size": 27,
+  "camera_path": "/mnt/soarin/data/sullens/mesh/sullens_opk.txt",
+  "checkpoint_freq": 500,
+  "ckpt_number": 10000,
+  "data_dir": "/mnt/soarin/Datasets/",
+  "dataset_name": "sullens",
+  "dataset_version": "0.2.0",
+  "epochs": 10000,
+  "gpu": "0",
+  "height": 3000,
+  "lr": 0.00002,
+  "mesh_freq": 100,
+  "mesh_path": "/mnt/soarin/data/sullens/mesh/sullens_mesh_dense_colored.tfrecords",
+  "method": "MorphGAN",
+  "out_dir": "/mnt/soarin/results/",
+  "prefetch_size": 270,
+  "task": "morphGAN",
+  "test_freq": 100,
+  "test_one": true,
+  "width": 4000
+}

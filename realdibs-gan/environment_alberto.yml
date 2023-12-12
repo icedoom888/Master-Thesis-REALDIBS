@@ -1,0 +1,15 @@
+name: noice
+channels:
+- conda-forge
+- defaults
+dependencies:
+# - cudatoolkit==10.0.130-0
+# - cudnn
+- pip
+- python=3.7
+- wrapt
+- pip:
+  - tensorflow
+  - tensorflow_datasets
+  - tensorflow_hub
+  - progress

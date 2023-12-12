@@ -1,0 +1,25 @@
+{
+  "batch_size": 2,
+  "buffer_size": 10,
+  "camera_path": "/mnt/soarin/data/trinity/mesh/trinity_opk.txt",
+  "checkpoint_freq": 100,
+  "ckpt_number": 500,
+  "data_dir": "/media/alberto/DATA/project/realdibs/datasets/",
+  "dataset_name": "trinity",
+  "dataset_version": "0.2.0",
+  "epochs": 500,
+  "gpu": "1",
+  "height": 3000,
+  "lr": 0.0002,
+  "mesh_freq": 10,
+  "mesh_path": [
+    "/mnt/soarin/data/trinity/mesh/trinity_dense_mesh_simplified.tfrecords"
+  ],
+  "method": "mesh_optim_vertex_colors",
+  "out_dir": "/mnt/soarin/results/",
+  "prefetch_size": 2,
+  "task": "mesh_optim_vertex_colors",
+  "test_freq": 10,
+  "test_one": true,
+  "width": 4000
+}

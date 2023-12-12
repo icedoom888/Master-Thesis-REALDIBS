@@ -1,0 +1,8 @@
+{
+  "basepath": "/mnt/soarin/data/",
+  "ext": ".fbx",
+  "name": "merton3",
+  "outpath": "../results/",
+  "resolution_x": 1024,
+  "resolution_y": 768
+}

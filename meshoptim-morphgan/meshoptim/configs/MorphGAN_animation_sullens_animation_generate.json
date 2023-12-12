@@ -1,0 +1,23 @@
+{
+  "batch_size": 1,
+  "buffer_size": 50,
+  "camera_path": "/mnt/soarin/results/render/sullens/animation_1583930186.85482_opk_rotation_copied_from_opk.txt",
+  "checkpoint_freq": 100,
+  "ckpt_number": 1000,
+  "data_dir": "/media/alberto/DATA/project/realdibs/datasets/",
+  "dataset_name": "sullens_animation",
+  "epochs": 1000,
+  "gpu": "1",
+  "height": 3000,
+  "initial_epoch": 350,
+  "lr": 0.0002,
+  "mesh_freq": 100,
+  "mesh_path": "/mnt/soarin/results/mesh_optim_vertex_colors/sullens/mesh_optim_vertex_colors/20191219-134502/mesh/morphed_mesh_499.tfrecords",
+  "method": "MorphGAN_animation",
+  "out_dir": "/mnt/soarin/results/",
+  "prefetch_size": 100,
+  "task": "MorphGAN_animation",
+  "test_freq": 100,
+  "test_one": true,
+  "width": 4000
+}

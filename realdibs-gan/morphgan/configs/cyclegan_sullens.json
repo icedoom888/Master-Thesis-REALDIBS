@@ -1,0 +1,23 @@
+{
+  "gpu" : "1",
+  "LAMBDA": 100,
+  "batch_size": 1,
+  "buffer_size": 500,
+  "checkpoint_freq": 200,
+  "ckpt_number": 30000,
+  "data_dir": "/mnt/soarin/datasets/",
+  "dataset_name": "sullens",
+  "dataset_version": "0.3.0",
+  "epochs": 30000,
+  "height": 3000,
+  "lr": 0.0002,
+  "method": "cyclegan",
+  "network_downscale": 256,
+  "out_dir": "/mnt/soarin/results/",
+  "patch_size": 512,
+  "prefetch_size": 270,
+  "task": "baselines",
+  "test_freq": 50,
+  "test_one": true,
+  "width": 4000
+}

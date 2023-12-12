@@ -1,0 +1,6 @@
+{
+  "batch_size": 1,
+  "dataset_name": "sullens",
+  "out_dir": "/mnt/soarin/results/",
+  "patch_size": 512
+}
